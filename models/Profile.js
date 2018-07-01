@@ -13,6 +13,7 @@ const ProfileSchema = new Schema({
     max: 40
   },
   location: {
+     
     type: String,
     required:true
   },
