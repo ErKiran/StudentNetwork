@@ -46,3 +46,15 @@ patch:
         patched: '2019-10-04T23:00:45.521Z'
     - npm > libnpm > libnpmsearch > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
         patched: '2019-10-04T23:00:45.521Z'
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - concurrently > lodash:
+        patched: '2019-07-03T23:02:53.003Z'
+    - mongoose > async > lodash:
+        patched: '2019-07-03T23:02:53.003Z'
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2020-04-30T23:02:45.710Z'

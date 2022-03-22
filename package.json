@@ -25,13 +25,13 @@
     "jsonwebtoken": "^8.2.0",
     "mongodb": "^3.0.10",
     "mongoose": "^5.0.12",
-    "npm": "^6.1.0",
+    "npm": "^7.21.0",
     "passport": "^0.4.0",
     "passport-facebook": "^2.1.1",
     "passport-google-oauth20": "^1.0.0",
     "passport-jwt": "^4.0.0",
-    "validator": "^9.4.1",
-    "snyk": "^1.231.0"
+    "validator": "^13.6.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
